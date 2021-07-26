@@ -6,10 +6,11 @@
 -->
 <html>
 	<head>
-		<title>Portfoli_ajinkya</title>
+		<title>Ajinkya/olofnoob.github.io</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/switch.css" />
         <link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="progresscircle.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -25,6 +26,15 @@
 		<script src="a"></script>
 		<noscript><link rel="stylesheet" href="assets/b.js" /></noscript>
 		<script src="assets/js/particles.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous">
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"
+				integrity="sha384-BnFYVbw3PHhz5qWXTCSL12MjPc3KxjdKPx7R4R5JjIzxFmYX267NDyJ9B/nZANdg"
+				crossorigin="anonymous">
+		</script>
+		<script src="jquery.click-firewords.js"></script>
 	</head>
 	<body class="is-preload" style="overflow:visible">
   	<canvas class="background"  style="position:absolute; width: 100%; height: 100%; overflow:visible;"></canvas>  
@@ -40,9 +50,10 @@
 				
 				<span style="ont-family: 'Roboto'; color:white;" >Visitors Count:</span>
 				<a href="https://www.hitwebcounter.com" target="_blank">
-				<img src="https://hitwebcounter.com/counter/counter.php?page=7840928&style=0025&nbdigits=4&type=page&initCount=237" title="Free Counter" Alt="web counter"   border="0" /></a> 
+				<img src="https://hitwebcounter.com/counter/counter.php?page=7840928&style=0025&nbdigits=4&type=page&initCount=237" title="Free Counter" Alt="web counter"   border="0" /></a> #
 				</div>
 					<div id="intro">
+						
 						<h1><i class="fas fa-glasses"></i></h1>
 						<link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
 						<h2><script>
@@ -187,7 +198,7 @@
 							   data-period="2000"
 							   data-rotate='[ "Hello there,", "Welcome to my portfolio.", "I am a CS engineer", " and a tech enthusiast." ]'></span>
 						  </h2>
-                        <p>I'm Ajinkya Bhujbal, Currently working for DecisivEdge as Jr Software Engineer and my portfolio is a representation of all that I've learned and accomplished as a computer engineering student.</p>
+                        <p>I'm Ajinkya Bhujbal, Currently working for DecisivEdge as Jr Software Engineer and my portfolio is a representation of all that I've learned and accomplished as a computer engineer.</p>
 						<ul class="a">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -208,10 +219,11 @@
 						</ul>
 					</nav>
 				<!-- Main -->
-					<div id="main">
+					<div id="main" class="fire">
 
 						<!-- Featured Post -->
 							<article class="p">
+								
                                 <style>
                                     div.card{
                                        
@@ -244,32 +256,32 @@
 						<ul><p  class="fas fa-glasses" >  Ajinkya Bhujbal </p></ul>						
 						
 						<ul>
-						<div class="grid-container">
-                                      <div class="grid-item"><div class="fas fa-birthday-cake"> 05/12/1998</div></div>
-									  <div class="grid-item"><div class="fas fa-home">  Pune </div></div>
-                                      <div class="grid-item"><div class="fas fa-laptop-code">  Computer Engineer </div></div>
-									  
-                                      <div class="grid-item"><div class="fas fa-chalkboard-teacher">  NMVP(SSC) </div></div>
-                                      <div class="grid-item"><div class="fas fa-school">  Fergusson(HSC) </div></div>
-                                      <div class="grid-item"><div class="fas fa-graduation-cap">  SPPU(BE) </div></div>
-                                      
-                        </div>
+							<div class="grid-item"><div class="fas fa-home">  Pune </div></div>
+							<div class="grid-item"><div class="fas fa-birthday-cake"> 05/12/1998</div></div>
+                            <div class="grid-item"><div class="fas fa-school">  Fergusson(HSC) </div></div>
+                            <div class="grid-item"><div class="fas fa-graduation-cap">Dy Patil Akurdi(SPPU) </div></div>
                            </ul>     
 							</article>
 							
                         <article class="p">
+						
                             <div  class="intro">
                                 
-						
-						
-						
-						
-								<div class="demo">
+								<div class="demo" >
 								<hr class="solid">
-								<h2><a>Click It</a></h2>
-								
-								<p class="button icon solid solo fa fa-search-plus"></p>
+								<button  id="f">click me</button>
+								<script type="text/javascript">
+								$(function () {
+								 $('button').clickFireworks({
+								id:'fireworks',
+								appendTo():'body',
+								zIndex: 1000
+								});
+								});
+								</script>
+								<div class="container">
 								<div>
+									<h3><a>Skills</a></h3>
                                    <style>
                            
 							
@@ -296,12 +308,12 @@
                             </style>
                                    
                                     <div class="grid-container">
-                                      <div class="grid-item"><div class="circlechart" data-percentage="70">Java</div></div>
-                                      <div class="grid-item"><div class="circlechart" data-percentage="70">Javascript</div></div>
-                                      <div class="grid-item"><div class="circlechart" data-percentage="65">C++</div></div>
-                                      <div class="grid-item"><div class="circlechart" data-percentage="70">Sql</div></div>
-                                      <div class="grid-item"><div class="circlechart" data-percentage="70">Html/CSS</div></div>
+                                      <div class="grid-item"><div class="circlechart" data-percentage="70">Angular FW</div></div>
+                                      <div class="grid-item"><div class="circlechart" data-percentage="70">.Net FW</div></div>
                                       <div class="grid-item"><div class="circlechart" data-percentage="65">DSA</div></div>
+                                      <div class="grid-item"><div class="circlechart" data-percentage="65">Java</div></div>
+                                      <div class="grid-item"><div class="circlechart" data-percentage="70">SQL</div></div>
+                                      <div class="grid-item"><div class="circlechart" data-percentage="60">Testing</div></div>
 									  
                                     </div>
 									
@@ -348,7 +360,7 @@
 						
 						
 						</div>
-                            <div><h2 class="a">Softwares and IDEs Used</h2></div>
+                            <div><h2 class="a">Technology And Tools Used</h2></div>
 						<style>
                            
 							
@@ -375,13 +387,17 @@
                             </style>
 							
                             <div class="grid-container">
-                          <div class="grid-item"><img class="imgg" src="jpg/sql.jpg"><h5>MySql</br>Workbench</h5></div>
-                                <div class="grid-item"><img class="imgg" src="jpg/git.jpg"><h5>GitHub</br>&#8203;</h5></div>
-                          <div class="grid-item"><img class="imgg" src="jpg/jPngN1fpHb.jpg"><h5>Android</br>Studio</h5></div>
+                          <div class="grid-item"><img class="imgg" src="jpg/angular.png"><h5>Angular</br>JS</h5></div>
+                                <div class="grid-item"><img class="imgg" src="jpg/.net.png"><h5>.Net</br>Framework</h5></div>
+                          <div class="grid-item"><img class="imgg" src="jpg/csharp.png"><h5>C#</br></h5></div>
                                   
-                          <div class="grid-item"><img class="imgg" src="jpg/ae.jpg"><h5>Adobe</br>AE</h5></div>
-                                 <div class="grid-item"><img class="imgg" src="jpg/nb.jpg"><h5>NetBeans</br>&#8203;</h5></div>  
-                                <div class="grid-item"><img class="imgg" src="jpg/fbs.jpg"><h5>Google</br>Firebase</h5></div>
+                          <div class="grid-item"><img class="imgg" src="jpg/java.jpg"><h5>Java</br></h5></div>
+                                 <div class="grid-item"><img class="imgg" src="jpg/sqldev.jpg"><h5>SQL</br></h5></div>  
+                                <div class="grid-item"><img class="imgg" src="jpg/vs.png"><h5>Visual</br>Studio</h5></div>
+								
+						  <div class="grid-item"><img class="imgg" src="jpg/git.jpg"><h5>Git SVN</br></h5></div>
+                                 <div class="grid-item"><img class="imgg" src="jpg/fbs.jpg"><h5>Firebase</br></h5></div>  
+                                <div class="grid-item"><img class="imgg" src="jpg/jPngN1fpHb.jpg"><h5>Android</br>Studio</h5></div>
                          
                          
                         </div>
